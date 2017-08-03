@@ -32,6 +32,15 @@ func main() {
 	// go to tour.golang.org !
 }
 
+func gt(first, second shapes.Circle) {
+	// ***if statements
+	if first.Radius > second.Radius {
+		return true
+	} else {
+		return false
+	}
+}
+
 //***Struct declaration
 type Triangle struct {
 	// Give it fields
